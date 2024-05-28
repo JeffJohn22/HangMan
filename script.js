@@ -133,7 +133,7 @@ window.onload = function () {
      draw (60, 70, 20, 100);
    };
     
-  drawArray = [rightLeg, rightArm, torso, frame1]; 
+  drawArray = [rightLeg, rightArm, torso, head, frame1]; 
 
 
   // OnClick Function
@@ -173,7 +173,7 @@ window.onload = function () {
     buttons();
 
     geusses = [ ];
-    lives = 4;
+    lives = 5;
     counter = 0;
     space = 0;
     result();
