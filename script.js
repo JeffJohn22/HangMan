@@ -179,7 +179,7 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["Marriage"]
+        ["marriage"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -205,7 +205,7 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["It Happens", "Not Inevitable", "Sometimes,it's Everything", "Makes people question everything", "A Commitment?", "Life's a part, yes.", "THE DECISION"]
+        ["It Happens but Not Inevitable. Sometimes,it's Everything - Makes people question everything. Yet, the commitment is for Life!"]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);
